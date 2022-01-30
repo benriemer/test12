@@ -1483,14 +1483,16 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@plasmicapp/cli@^0.1.154":
-  version "0.1.154"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.154.tgz#0502d751f908db092369fc20aeeeef2df3d02faa"
-  integrity sha512-B/ifm4P51EX6GaZrnulsiXuaOBcnkf/KkeCWlX8yD7M1AP6N/x32ILml67YW4SWyXLm4NHHr84x9WTUjnfMTpA==
+"@plasmicapp/cli@^0.1.166":
+  version "0.1.167"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.167.tgz#38690f4369041764876122fe1ca62a1c7adef874"
+  integrity sha512-9N2Z8zmI1VFRlr4AKzMdRIY7B1zP72lM2OgI44H3wojECMWt1mcAkdQb/Hzs3bapXeMV4wrqQ0LJEZ3CLbib/A==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/generator" "^7.12.1"
-    "@plasmicapp/code-merger" "^0.0.31"
+    "@babel/parser" "^7.12.3"
+    "@babel/traverse" "^7.12.1"
+    "@plasmicapp/code-merger" "^0.0.33"
     "@sentry/node" "^5.19.2"
     "@types/socket.io-client" "^1.4.34"
     axios "^0.21.1"
@@ -1518,15 +1520,16 @@
     wrap-ansi "^7.0.0"
     yargs "^15.4.1"
 
-"@plasmicapp/code-merger@^0.0.31":
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/code-merger/-/code-merger-0.0.31.tgz#fdbab02229458aff2139f72258c6af46723ffec1"
-  integrity sha512-0s+jHEkwFQ220hIG1p76kTTLL8Cr5QsEFuwnrt2Q+nQHDeLwL9Mt8w2Ro1mBKNNac9/hdqC0eVPzVLbWhxWf/g==
+"@plasmicapp/code-merger@^0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/code-merger/-/code-merger-0.0.33.tgz#92d1f5b3dbe81b1a8b0e26a949d27d8619531e4c"
+  integrity sha512-FTO1MwoQ3s+Sh4Fqc8UJ0b1LZlv/0GidphucxvdDWB6zD98KhrTw3t38n8f4/cfw1SosTbd4uQ7Cn3z/P5Fc0Q==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/generator" "^7.12.1"
     "@babel/parser" "^7.12.3"
     "@babel/traverse" "^7.12.1"
+    "@babel/types" "^7.12.1"
     "@types/babel__core" "^7.1.14"
     "@types/babel__generator" "^7.6.2"
     "@types/babel__parser" "^7.1.1"

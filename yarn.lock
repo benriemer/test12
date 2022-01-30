@@ -1535,10 +1535,10 @@
     lodash "^4.17.19"
     prettier "^2.0.5"
 
-"@plasmicapp/react-web@^0.2.62":
-  version "0.2.62"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/react-web/-/react-web-0.2.62.tgz#4a4b90ed88dfbcde770a401d778ec89a3d3c8cfc"
-  integrity sha512-xUOlIYAbFD7+IglV5tVNasPJr4p74pzUr/pfWq2KGT2NFmwDiEGlvX9WbT9Uj8V/BpVOnMLJdHWPUZGNhz0OPg==
+"@plasmicapp/react-web@^0.2.90":
+  version "0.2.91"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/react-web/-/react-web-0.2.91.tgz#ac0c86c4cb3da2e0fc9da11fc08570113c7ac4fc"
+  integrity sha512-VEl3Q0TM/YumG8KhDF7W8/mWjj+GTtIAJLPS/FcCNbBnqnat94/iJtblQazsTF/Q7j82v2CPf4vXk5wnwo1pCA==
   dependencies:
     classnames "^2.2.6"
     react-aria "^3.7.0"
